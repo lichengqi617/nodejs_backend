@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lichengqi617/nodejs_backend.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Chengqi Li",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lichengqi617/nodejs_backend/issues"
+  },
+  "homepage": "https://github.com/lichengqi617/nodejs_backend#readme"
+}
