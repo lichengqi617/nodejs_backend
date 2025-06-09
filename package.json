@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./src/server.js",
     "test": "npm test"
   },
   "repository": {
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/lichengqi617/nodejs_backend/issues"
   },
-  "homepage": "https://github.com/lichengqi617/nodejs_backend#readme"
+  "homepage": "https://github.com/lichengqi617/nodejs_backend#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
 }
