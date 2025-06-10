@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const mongoDBAccess = require('mongo-conn.js');
+const mongoDBAccess = require('./mongo-conn.js');
 
 const router = require('./routes/gppd');
 
